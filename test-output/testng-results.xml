@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T14:38:22 IST" name="Suite" finished-at="2024-02-12T14:40:45 IST" duration-ms="143293">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_SearchHomePage.searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@815b41f]" name="searchHomePage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC002_WebDevelopmentPage.levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@815b41f]" name="levelSelector" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@815b41f]" name="languageSelect" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Result()[pri:4, instance:testCases.TC004_BusinessCoursera@815b41f]" name="Result" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@815b41f]" name="deatilsFirstCard" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@815b41f]" name="Headings" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC001_SearchHomePage.Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@815b41f]" name="Search2" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC003_LanguageLearning.displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@815b41f]" name="displayLevels" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC003_LanguageLearning.displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@815b41f]" name="displayLanguages" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC001_SearchHomePage.ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@815b41f]" name="ThirdtimeHomepage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC004_BusinessCoursera.clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@815b41f]" name="clickSolution" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@815b41f]" name="clickContactUs" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.details()[pri:14, instance:testCases.TC004_BusinessCoursera@815b41f]" name="details" class="testCases.TC004_BusinessCoursera"/>
+      </group> <!-- Master -->
+      <group name="regression">
+        <method signature="TC002_WebDevelopmentPage.levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@815b41f]" name="levelSelector" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@815b41f]" name="languageSelect" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Result()[pri:4, instance:testCases.TC004_BusinessCoursera@815b41f]" name="Result" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@815b41f]" name="deatilsFirstCard" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@815b41f]" name="Headings" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC001_SearchHomePage.Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@815b41f]" name="Search2" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC003_LanguageLearning.displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@815b41f]" name="displayLevels" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC003_LanguageLearning.displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@815b41f]" name="displayLanguages" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC001_SearchHomePage.ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@815b41f]" name="ThirdtimeHomepage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC004_BusinessCoursera.clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@815b41f]" name="clickSolution" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@815b41f]" name="clickContactUs" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.details()[pri:14, instance:testCases.TC004_BusinessCoursera@815b41f]" name="details" class="testCases.TC004_BusinessCoursera"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_SearchHomePage.searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@815b41f]" name="searchHomePage" class="testCases.TC001_SearchHomePage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-12T14:38:22 IST" name="test" finished-at="2024-02-12T14:40:45 IST" duration-ms="143293">
+      <class name="testCases.TC004_BusinessCoursera">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:38:23 IST" name="setup" finished-at="2024-02-12T14:38:48 IST" duration-ms="25048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:38:48 IST" name="searchHomePage" finished-at="2024-02-12T14:39:02 IST" duration-ms="13721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHomePage -->
+        <test-method signature="levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:02 IST" name="levelSelector" finished-at="2024-02-12T14:39:06 IST" duration-ms="3966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- levelSelector -->
+        <test-method signature="languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:06 IST" name="languageSelect" finished-at="2024-02-12T14:39:14 IST" duration-ms="7230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelect -->
+        <test-method signature="Result()[pri:4, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:14 IST" name="Result" finished-at="2024-02-12T14:39:16 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Result -->
+        <test-method signature="deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:17 IST" name="deatilsFirstCard" finished-at="2024-02-12T14:39:24 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deatilsFirstCard -->
+        <test-method signature="Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:25 IST" name="Headings" finished-at="2024-02-12T14:39:30 IST" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Headings -->
+        <test-method signature="Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:31 IST" name="Search2" finished-at="2024-02-12T14:39:41 IST" duration-ms="10541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search2 -->
+        <test-method signature="displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:42 IST" name="displayLevels" finished-at="2024-02-12T14:39:43 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLevels -->
+        <test-method signature="displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:39:43 IST" name="displayLanguages" finished-at="2024-02-12T14:40:02 IST" duration-ms="18552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLanguages -->
+        <test-method signature="ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:40:02 IST" name="ThirdtimeHomepage" finished-at="2024-02-12T14:40:22 IST" duration-ms="19530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdtimeHomepage -->
+        <test-method signature="clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:40:22 IST" name="clickSolution" finished-at="2024-02-12T14:40:30 IST" duration-ms="7754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSolution -->
+        <test-method signature="clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:40:30 IST" name="clickContactUs" finished-at="2024-02-12T14:40:38 IST" duration-ms="7419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactUs -->
+        <test-method signature="details()[pri:14, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:40:38 IST" name="details" finished-at="2024-02-12T14:40:44 IST" duration-ms="5952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_BusinessCoursera@815b41f]" started-at="2024-02-12T14:40:44 IST" name="tearDown" finished-at="2024-02-12T14:40:45 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_BusinessCoursera -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

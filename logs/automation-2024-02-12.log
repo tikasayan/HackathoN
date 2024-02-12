@@ -1,0 +1,52 @@
+13:21:35.400 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:21:40.919 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:22:01.504 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:24:26.399 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:24:31.685 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:24:39.999 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Selected//---
+13:24:59.301 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:27:39.304 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:27:44.058 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:28:11.910 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:28:13.278 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Levels//---
+13:28:29.203 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Languages//---
+13:28:45.415 [main] INFO  testCases.TC004_BusinessCoursera - ---//Enterprise opened//---
+13:29:06.742 [main] INFO  testCases.TC004_BusinessCoursera - ---//Contact Us Page Opened//---
+13:29:14.738 [main] INFO  testCases.TC004_BusinessCoursera - ---//Error Message Captured from Contact Us Page//---
+13:31:04.217 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:31:09.934 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:31:17.814 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Selected//---
+13:31:44.062 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:31:45.705 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Levels//---
+13:32:02.251 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Languages//---
+13:32:19.815 [main] INFO  testCases.TC004_BusinessCoursera - ---//Enterprise opened//---
+13:32:36.637 [main] INFO  testCases.TC004_BusinessCoursera - ---//Contact Us Page Opened//---
+13:32:45.059 [main] INFO  testCases.TC004_BusinessCoursera - ---//Error Message Captured from Contact Us Page//---
+13:41:08.354 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:41:13.536 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:41:22.380 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Selected//---
+13:47:25.527 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:47:30.402 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:47:39.217 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Selected//---
+13:48:04.244 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:48:06.142 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Levels//---
+13:48:20.929 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Languages//---
+13:48:39.510 [main] INFO  testCases.TC004_BusinessCoursera - ---//Enterprise opened//---
+13:48:55.980 [main] INFO  testCases.TC004_BusinessCoursera - ---//Contact Us Page Opened//---
+13:49:04.780 [main] INFO  testCases.TC004_BusinessCoursera - ---//Error Message Captured from Contact Us Page//---
+13:01:44.023 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:01:48.996 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:01:56.645 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Selected//---
+13:02:19.359 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:02:20.548 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Levels//---
+13:02:33.823 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Languages//---
+13:02:48.990 [main] INFO  testCases.TC004_BusinessCoursera - ---//Enterprise opened//---
+13:03:14.525 [main] INFO  testCases.TC004_BusinessCoursera - ---//Contact Us Page Opened//---
+13:03:23.662 [main] INFO  testCases.TC004_BusinessCoursera - ---//Error Message Captured from Contact Us Page//---
+13:13:41.704 [main] INFO  testCases.TC004_BusinessCoursera - ---//WebDevelopment Page opened//---
+13:13:46.192 [main] INFO  testCases.TC004_BusinessCoursera - ---//Level Selected//---
+13:13:53.410 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Selected//---
+13:14:14.497 [main] INFO  testCases.TC004_BusinessCoursera - ---//Language Learning Page opened//---
+13:14:15.403 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Levels//---
+13:14:26.347 [main] INFO  testCases.TC004_BusinessCoursera - ---//Data Captured from Languages//---
+13:14:40.602 [main] INFO  testCases.TC004_BusinessCoursera - ---//Enterprise opened//---

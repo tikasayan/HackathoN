@@ -35,7 +35,7 @@ public class TC001_SearchHomePage extends BaseClass {
 	public void ThirdtimeHomepage() throws InterruptedException, IOException {
 		ScreenShots ss = new ScreenShots(driver);
 		HomePage hp = new HomePage(driver);
-		hp.ScrollEnd();
+		//hp.ScrollEnd();
 		Thread.sleep(3000);
 		ss.screenshot("Enterprise");
 		Thread.sleep(1000);

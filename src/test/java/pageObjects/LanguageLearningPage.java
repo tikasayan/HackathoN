@@ -20,7 +20,7 @@ public class LanguageLearningPage extends BasePage{
 	@FindBy(xpath= "//div[@data-testid='search-filter-group-Language']//button//span[contains(text(),'Show more')]") WebElement showmoreLang;
 	@FindBy(xpath = "//button[@data-track-component=\"expand_filter_items_button_language\"]//span[contains(text(),'Show more')]")WebElement showmoreLang1;
 	@FindBy(xpath = "//div[@class='cds-Modal-container']//label[contains(@class,'checkboxAndRadio')]") List<WebElement> languageList;
-	@FindBy(xpath = "//button[contains(@class,'css-1orckby')]")WebElement CloseButton;
+	@FindBy(xpath = "//button[contains(@class,'css-1s96oj')]")WebElement CloseButton;
 	@FindBy(xpath = "//a[@data-click-key=\"search.search.click.logo\"]")WebElement Logo;
 	
 	public void findLevels() throws IOException {

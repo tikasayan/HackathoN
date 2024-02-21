@@ -42,6 +42,8 @@ public class HomePage extends BasePage {
 	}
 	
 	public void clickEnterprise() {
+//		Actions act = new Actions(driver);
+//		act.moveToElement(Enterprise).click().build().perform();
 		Enterprise.click();
 	}
 

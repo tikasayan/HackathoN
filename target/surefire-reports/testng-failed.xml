@@ -11,11 +11,11 @@
       <class name="testCases.TC004_BusinessCoursera">
         <methods>
           <include name="tearDown"/>
+          <include name="deatilsFirstCard"/>
           <include name="details"/>
           <include name="clickContactUs"/>
           <include name="setup"/>
           <include name="clickSolution"/>
-          <include name="displayLanguages"/>
         </methods>
       </class> <!-- testCases.TC004_BusinessCoursera -->
     </classes>

@@ -38,9 +38,6 @@ public class LanguageLearningPage extends BasePage{
 	}
 	
 	public void clickShowmore() {
-//		JavascriptExecutor js = (JavascriptExecutor)driver;
-//		js.executeScript("arguments[0].scrollIntoView();",showmoreLang);
-//		js.executeScript("arguments[0].click();",showmoreLang);
 		showmoreLang1.click();
 	}
 	

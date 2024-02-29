@@ -41,9 +41,6 @@ public class BaseClass {
 	public static WebDriver driver;
  
 	public Properties p;
- 
-	public int choice;
- 
 	public Logger logger;
  
 	Scanner sc;
@@ -61,18 +58,6 @@ public class BaseClass {
 		p = new Properties();
  
 		p.load(file);
- 
-		ChromeOptions chromeOptions=new ChromeOptions();
- 
-		chromeOptions.setExperimentalOption("excludeSwitches", new String[] {"enable-automation"});
- 
-		chromeOptions.addArguments("--disable-notifications");
- 
-		EdgeOptions edgeOptions=new EdgeOptions();
- 
-		edgeOptions.setExperimentalOption("excludeSwitches", new String[] {"enable-automation"});
- 
-		edgeOptions.addArguments("--disable-notifications");
  
  
 		logger = LogManager.getLogger(this.getClass());

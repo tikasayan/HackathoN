@@ -68,7 +68,7 @@ public class ContactUsPage extends BasePage{
 
 		ScreenShots ss = new ScreenShots(driver);
 
-		ContactUsPage cp = new ContactUsPage(driver);
+		//ContactUsPage cp = new ContactUsPage(driver);
 
 		FirstName.sendKeys("Sayantika");
 
@@ -100,10 +100,7 @@ public class ContactUsPage extends BasePage{
 
 		s5.selectByIndex(2);
 
-//		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
-
-//		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(popupFrame));		
-
+		
 		Thread.sleep(5000);
 		driver.switchTo().frame(popupFrame);
 

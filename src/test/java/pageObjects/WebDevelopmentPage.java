@@ -24,7 +24,7 @@ import org.openqa.selenium.support.FindBy;
  
 import utilityFiles.ExcelUtils;
 
-import utilityFiles.ScrollDown;
+//import utilityFiles.ScrollDown;
  
 public class WebDevelopmentPage extends BasePage{
 
@@ -178,38 +178,38 @@ public class WebDevelopmentPage extends BasePage{
 
 	}
 
-	public void clickFirstCard() {
+//	public void clickFirstCard() {
+//
+//		FirstCard.click();
+//
+//	}
 
-		FirstCard.click();
 
-	}
+//	public void Search() throws InterruptedException {
+//
+//		Thread.sleep(3000);
+//
+//		SearchBox.clear();
+//
+//		Thread.sleep(1000);
+//
+//		SearchBox.clear();
+//
+//		SearchBox.sendKeys("Language Learning");
+//
+//		Actions act = new Actions(driver);
+//
+//		act.sendKeys(Keys.ENTER).perform();
+//
+//	}
 
-
-	public void Search() throws InterruptedException {
-
-		Thread.sleep(3000);
-
-		SearchBox.clear();
-
-		Thread.sleep(1000);
-
-		SearchBox.clear();
-
-		SearchBox.sendKeys("Language Learning");
-
-		Actions act = new Actions(driver);
-
-		act.sendKeys(Keys.ENTER).perform();
-
-	}
-
-	public void scrollScreen() {
-
-		JavascriptExecutor js =(JavascriptExecutor)driver;
-
-		js.executeScript("window.scrollBy(0,300)"," ");
-
-	}
+//	public void scrollScreen() {
+//
+//		JavascriptExecutor js =(JavascriptExecutor)driver;
+//
+//		js.executeScript("window.scrollBy(0,300)"," ");
+//
+//	}
 
 	public void searchResult() 
 

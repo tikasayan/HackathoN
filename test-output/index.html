@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\2303453\eclipse-workspace\HackatHon__IC\Grouping.xml</span>
+                    <span>C:\Users\2303453\eclipse-workspace\HackatHon__IC\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,31 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 3 failed,   10 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="clickContactUs">clickContactUs</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="clickSolution">clickSolution</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="details">details</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">13 methods,   13 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -147,7 +123,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="clickContactUs">clickContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="clickSolution">clickSolution</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="deatilsFirstCard">deatilsFirstCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC004_BusinessCoursera" class="method navigator-link" hash-for-method="details">details</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,113 +178,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC004_BusinessCoursera</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickContactUs">
-                  </a> <!-- clickContactUs -->
-                  <span class="method-name">clickContactUs</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Contact Us&apos;)]&quot;}
-  (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6222d0d054da57d36139f4819243fefc, findElement {using=xpath, value=//span[contains(text(),&apos;Contact Us&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60094/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6222d0d054da57d36139f4819243fefc
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.UniversitiesPage.clickContactUs(UniversitiesPage.java:18)
-	at testCases.TC004_BusinessCoursera.clickContactUs(TC004_BusinessCoursera.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickSolution">
-                  </a> <!-- clickSolution -->
-                  <span class="method-name">clickSolution</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;p class=&quot;cds-119 css-1cg99il cds-121&quot;&gt;...&lt;/p&gt; is not clickable at point (943, 427). Other element would receive the click: &lt;iframe class=&quot;drift-frame-controller&quot; scrolling=&quot;no&quot; title=&quot;Drift Widget Chat Controller&quot; allow=&quot;autoplay; encrypted-media; fullscreen;&quot; frameborder=&quot;0&quot; src=&quot;https://js.driftt.com/core?d=1&amp;amp;embedId=mpta5ez37rme&amp;amp;eId=mpta5ez37rme&amp;amp;region=US&amp;amp;forceShow=false&amp;amp;skipCampaigns=false&amp;amp;sessionId=a5105890-7ca9-4f59-bccf-53a51dd9f66a&amp;amp;sessionStarted=1708397035.705&amp;amp;campaignRefreshToken=13cb9b07-7903-4062-a33c-ebca20208e75&amp;amp;hideController=false&amp;amp;pageLoadStartTime=1708397029286&amp;amp;mode=CHAT&amp;amp;driftEnableLog=false&amp;amp;secureIframe=false&amp;amp;u=https%3A%2F%2Fwww.coursera.org%2Fbusiness%3Futm_campaign%3Dwebsite%26utm_content%3Dcorp-to-home-footer-for-enterprise%26utm_medium%3Dcoursera%26utm_source%3Denterprise&quot; style=&quot;background: transparent; width: 360px; max-width: 100%; height: 100px; border: none;&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6222d0d054da57d36139f4819243fefc, clickElement {id=29FB280236349A482AB6682255404512_element_266}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60094/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6222d0d054da57d36139f4819243fefc)] -&gt; xpath: //p[contains(text(),&apos;Coursera for Campus&apos;)]]
-Session ID: 6222d0d054da57d36139f4819243fefc
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at pageObjects.BusinessPage.clickCampus(BusinessPage.java:23)
-	at testCases.TC004_BusinessCoursera.clickSolution(TC004_BusinessCoursera.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="details">
-                  </a> <!-- details -->
-                  <span class="method-name">details</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=120.0.6099.130)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6222d0d054da57d36139f4819243fefc, sendKeysToElement {id=29FB280236349A482AB6682255404512_element_267, value=[Ljava.lang.CharSequence;@6367a688}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60094/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6222d0d054da57d36139f4819243fefc)] -&gt; xpath: //input[@id=&apos;FirstName&apos;]]
-Session ID: 6222d0d054da57d36139f4819243fefc
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
-	at pageObjects.ContactUsPage.enterDetails(ContactUsPage.java:73)
-	at testCases.TC004_BusinessCoursera.details(TC004_BusinessCoursera.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -330,9 +214,30 @@ Session ID: 6222d0d054da57d36139f4819243fefc
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="clickContactUs">
+                  </a> <!-- clickContactUs -->
+                  <span class="method-name">clickContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSolution">
+                  </a> <!-- clickSolution -->
+                  <span class="method-name">clickSolution</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="deatilsFirstCard">
                   </a> <!-- deatilsFirstCard -->
                   <span class="method-name">deatilsFirstCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="details">
+                  </a> <!-- details -->
+                  <span class="method-name">details</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -375,7 +280,7 @@ Session ID: 6222d0d054da57d36139f4819243fefc
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2303453\eclipse-workspace\HackatHon__IC\Grouping.xml</span>
+            <span class="header-content">C:\Users\2303453\eclipse-workspace\HackatHon__IC\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -385,20 +290,13 @@ Session ID: 6222d0d054da57d36139f4819243fefc
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilityFiles.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;regression&quot;/&gt;
-        &lt;include name=&quot;master&quot;/&gt;
-        &lt;include name=&quot;sanity&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC004_BusinessCoursera&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- test --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -410,7 +308,7 @@ Session ID: 6222d0d054da57d36139f4819243fefc
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">test (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -556,60 +454,60 @@ data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ThirdtimeHomepage')
 data.setCell(0, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(0, 3, 15347);
+data.setCell(0, 3, 23149);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'displayLanguages')
 data.setCell(1, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(1, 3, 11218);
+data.setCell(1, 3, 16161);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'searchHomePage')
 data.setCell(2, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(2, 3, 10915);
+data.setCell(2, 3, 13287);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'details')
 data.setCell(3, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(3, 3, 10111);
+data.setCell(3, 3, 12451);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickContactUs')
+data.setCell(4, 1, 'clickSolution')
 data.setCell(4, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(4, 3, 10070);
+data.setCell(4, 3, 12051);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'languageSelect')
+data.setCell(5, 1, 'Search2')
 data.setCell(5, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(5, 3, 7630);
+data.setCell(5, 3, 11928);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Search2')
+data.setCell(6, 1, 'clickContactUs')
 data.setCell(6, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(6, 3, 7589);
+data.setCell(6, 3, 10439);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'levelSelector')
+data.setCell(7, 1, 'languageSelect')
 data.setCell(7, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(7, 3, 3862);
+data.setCell(7, 3, 8050);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'Headings')
 data.setCell(8, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(8, 3, 3667);
+data.setCell(8, 3, 6609);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'deatilsFirstCard')
+data.setCell(9, 1, 'levelSelector')
 data.setCell(9, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(9, 3, 3031);
+data.setCell(9, 3, 5063);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'clickSolution')
+data.setCell(10, 1, 'deatilsFirstCard')
 data.setCell(10, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(10, 3, 2485);
+data.setCell(10, 3, 4852);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'Result')
 data.setCell(11, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(11, 3, 2065);
+data.setCell(11, 3, 2104);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'displayLevels')
 data.setCell(12, 2, 'testCases.TC004_BusinessCoursera')
-data.setCell(12, 3, 599);
+data.setCell(12, 3, 956);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -642,65 +540,59 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">searchHomePage</span>
-                <span class="method-start">24807 ms</span>
+                <span class="method-start">36307 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">levelSelector</span>
-                <span class="method-start">36062 ms</span>
+                <span class="method-start">50220 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">languageSelect</span>
-                <span class="method-start">40427 ms</span>
+                <span class="method-start">55819 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Result</span>
-                <span class="method-start">48434 ms</span>
+                <span class="method-start">64295 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deatilsFirstCard</span>
-                <span class="method-start">50865 ms</span>
+                <span class="method-start">66877 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Headings</span>
-                <span class="method-start">54274 ms</span>
+                <span class="method-start">72144 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Search2</span>
-                <span class="method-start">58818 ms</span>
+                <span class="method-start">79487 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">displayLevels</span>
-                <span class="method-start">66690 ms</span>
+                <span class="method-start">91700 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">displayLanguages</span>
-                <span class="method-start">67605 ms</span>
+                <span class="method-start">92966 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ThirdtimeHomepage</span>
-                <span class="method-start">79747 ms</span>
+                <span class="method-start">109511 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">clickSolution</span>
-                <span class="method-start">95675 ms</span>
+                <span class="method-start">133407 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">clickContactUs</span>
-                <span class="method-start">98171 ms</span>
+                <span class="method-start">146329 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">details</span>
-                <span class="method-start">108245 ms</span>
+                <span class="method-start">157040 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">118363 ms</span>
+                <span class="method-start">169763 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

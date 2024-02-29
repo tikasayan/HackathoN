@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-20T16:36:17 IST" name="Suite" finished-at="2024-02-20T16:38:31 IST" duration-ms="133716">
+  <suite started-at="2024-02-29T14:19:17 IST" name="Suite" finished-at="2024-02-29T14:21:13 IST" duration-ms="116302">
     <groups>
       <group name="Master">
-        <method signature="TC001_SearchHomePage.searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="searchHomePage" class="testCases.TC001_SearchHomePage"/>
-        <method signature="TC002_WebDevelopmentPage.levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="levelSelector" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="languageSelect" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.Result()[pri:4, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="Result" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="deatilsFirstCard" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="Headings" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC001_SearchHomePage.Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="Search2" class="testCases.TC001_SearchHomePage"/>
-        <method signature="TC003_LanguageLearning.displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="displayLevels" class="testCases.TC003_LanguageLearning"/>
-        <method signature="TC003_LanguageLearning.displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="displayLanguages" class="testCases.TC003_LanguageLearning"/>
-        <method signature="TC001_SearchHomePage.ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="ThirdtimeHomepage" class="testCases.TC001_SearchHomePage"/>
-        <method signature="TC004_BusinessCoursera.clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="clickSolution" class="testCases.TC004_BusinessCoursera"/>
-        <method signature="TC004_BusinessCoursera.clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="clickContactUs" class="testCases.TC004_BusinessCoursera"/>
-        <method signature="TC004_BusinessCoursera.details()[pri:14, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="details" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC001_SearchHomePage.searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="searchHomePage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC002_WebDevelopmentPage.levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="levelSelector" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="languageSelect" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Result()[pri:4, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="Result" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="deatilsFirstCard" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="Headings" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC001_SearchHomePage.Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="Search2" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC003_LanguageLearning.displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="displayLevels" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC003_LanguageLearning.displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="displayLanguages" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC001_SearchHomePage.ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="ThirdtimeHomepage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC004_BusinessCoursera.clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="clickSolution" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="clickContactUs" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.details()[pri:14, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="details" class="testCases.TC004_BusinessCoursera"/>
       </group> <!-- Master -->
       <group name="regression">
-        <method signature="TC002_WebDevelopmentPage.levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="levelSelector" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="languageSelect" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.Result()[pri:4, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="Result" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="deatilsFirstCard" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC002_WebDevelopmentPage.Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="Headings" class="testCases.TC002_WebDevelopmentPage"/>
-        <method signature="TC001_SearchHomePage.Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="Search2" class="testCases.TC001_SearchHomePage"/>
-        <method signature="TC003_LanguageLearning.displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="displayLevels" class="testCases.TC003_LanguageLearning"/>
-        <method signature="TC003_LanguageLearning.displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="displayLanguages" class="testCases.TC003_LanguageLearning"/>
-        <method signature="TC001_SearchHomePage.ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="ThirdtimeHomepage" class="testCases.TC001_SearchHomePage"/>
-        <method signature="TC004_BusinessCoursera.clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="clickSolution" class="testCases.TC004_BusinessCoursera"/>
-        <method signature="TC004_BusinessCoursera.clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="clickContactUs" class="testCases.TC004_BusinessCoursera"/>
-        <method signature="TC004_BusinessCoursera.details()[pri:14, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="details" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC002_WebDevelopmentPage.levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="levelSelector" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="languageSelect" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Result()[pri:4, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="Result" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="deatilsFirstCard" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC002_WebDevelopmentPage.Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="Headings" class="testCases.TC002_WebDevelopmentPage"/>
+        <method signature="TC001_SearchHomePage.Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="Search2" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC003_LanguageLearning.displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="displayLevels" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC003_LanguageLearning.displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="displayLanguages" class="testCases.TC003_LanguageLearning"/>
+        <method signature="TC001_SearchHomePage.ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="ThirdtimeHomepage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC004_BusinessCoursera.clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="clickSolution" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="clickContactUs" class="testCases.TC004_BusinessCoursera"/>
+        <method signature="TC004_BusinessCoursera.details()[pri:14, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="details" class="testCases.TC004_BusinessCoursera"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC001_SearchHomePage.searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@5c5eefef]" name="searchHomePage" class="testCases.TC001_SearchHomePage"/>
+        <method signature="TC001_SearchHomePage.searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" name="searchHomePage" class="testCases.TC001_SearchHomePage"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-02-20T16:36:17 IST" name="Test" finished-at="2024-02-20T16:38:31 IST" duration-ms="133716">
+    <test started-at="2024-02-29T14:19:17 IST" name="Test" finished-at="2024-02-29T14:21:13 IST" duration-ms="116302">
       <class name="testCases.TC004_BusinessCoursera">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:36:18 IST" name="setup" finished-at="2024-02-20T16:36:43 IST" duration-ms="24988" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:19:18 IST" name="setup" finished-at="2024-02-29T14:19:49 IST" duration-ms="31764" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,59 +55,314 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:36:43 IST" name="searchHomePage" finished-at="2024-02-20T16:36:54 IST" duration-ms="10561" status="PASS">
+        <test-method signature="searchHomePage()[pri:1, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:19:50 IST" name="searchHomePage" finished-at="2024-02-29T14:20:02 IST" duration-ms="12582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchHomePage -->
-        <test-method signature="levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:36:54 IST" name="levelSelector" finished-at="2024-02-20T16:36:58 IST" duration-ms="3841" status="PASS">
+        <test-method signature="levelSelector()[pri:2, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:03 IST" name="levelSelector" finished-at="2024-02-29T14:20:06 IST" duration-ms="3848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- levelSelector -->
-        <test-method signature="languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:36:58 IST" name="languageSelect" finished-at="2024-02-20T16:37:06 IST" duration-ms="7592" status="PASS">
+        <test-method signature="languageSelect()[pri:3, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:07 IST" name="languageSelect" finished-at="2024-02-29T14:20:14 IST" duration-ms="7620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- languageSelect -->
-        <test-method signature="Result()[pri:4, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:06 IST" name="Result" finished-at="2024-02-20T16:37:08 IST" duration-ms="2073" status="PASS">
+        <test-method signature="Result()[pri:4, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:15 IST" name="Result" finished-at="2024-02-29T14:20:17 IST" duration-ms="2082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Result -->
-        <test-method signature="deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:08 IST" name="deatilsFirstCard" finished-at="2024-02-20T16:37:12 IST" duration-ms="3563" status="PASS">
+        <test-method signature="deatilsFirstCard()[pri:6, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:17 IST" name="deatilsFirstCard" finished-at="2024-02-29T14:20:17 IST" duration-ms="215" status="FAIL">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 2 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+at pageObjects.WebDevelopmentPage.FirstNameRatingTime(WebDevelopmentPage.java:135)
+at testCases.TC002_WebDevelopmentPage.deatilsFirstCard(TC002_WebDevelopmentPage.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deatilsFirstCard -->
-        <test-method signature="Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:12 IST" name="Headings" finished-at="2024-02-20T16:37:18 IST" duration-ms="5423" status="PASS">
+        <test-method signature="Headings()[pri:7, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:17 IST" name="Headings" finished-at="2024-02-29T14:20:25 IST" duration-ms="7521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Headings -->
-        <test-method signature="Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:18 IST" name="Search2" finished-at="2024-02-20T16:37:27 IST" duration-ms="8944" status="PASS">
+        <test-method signature="Search2()[pri:8, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:25 IST" name="Search2" finished-at="2024-02-29T14:20:35 IST" duration-ms="10217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search2 -->
-        <test-method signature="displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:28 IST" name="displayLevels" finished-at="2024-02-20T16:37:28 IST" duration-ms="775" status="PASS">
+        <test-method signature="displayLevels()[pri:9, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:36 IST" name="displayLevels" finished-at="2024-02-29T14:20:39 IST" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayLevels -->
-        <test-method signature="displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:29 IST" name="displayLanguages" finished-at="2024-02-20T16:37:42 IST" duration-ms="13150" status="PASS">
+        <test-method signature="displayLanguages()[pri:10, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:39 IST" name="displayLanguages" finished-at="2024-02-29T14:20:52 IST" duration-ms="13163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayLanguages -->
-        <test-method signature="ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:37:42 IST" name="ThirdtimeHomepage" finished-at="2024-02-20T16:38:02 IST" duration-ms="19666" status="PASS">
+        <test-method signature="ThirdtimeHomepage()[pri:11, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:20:53 IST" name="ThirdtimeHomepage" finished-at="2024-02-29T14:21:08 IST" duration-ms="15506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ThirdtimeHomepage -->
-        <test-method signature="clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:38:02 IST" name="clickSolution" finished-at="2024-02-20T16:38:11 IST" duration-ms="8389" status="PASS">
+        <test-method signature="clickSolution()[pri:12, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:21:09 IST" name="clickSolution" finished-at="2024-02-29T14:21:12 IST" duration-ms="3427" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //p[contains(text(),'Coursera for Campus')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //p[contains(text(),'Coursera for Campus')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at pageObjects.BusinessPage.clickCampus(BusinessPage.java:23)
+at testCases.TC004_BusinessCoursera.clickSolution(TC004_BusinessCoursera.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSolution -->
-        <test-method signature="clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:38:11 IST" name="clickContactUs" finished-at="2024-02-20T16:38:19 IST" duration-ms="7409" status="PASS">
+        <test-method signature="clickContactUs()[pri:13, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:21:12 IST" name="clickContactUs" finished-at="2024-02-29T14:21:12 IST" duration-ms="68" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c6447c7b8fb00d0393bdbc6af1f616b3, findElement {using=xpath, value=//span[contains(text(),'Contact Us')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303453\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.25.124.190:4444/ses..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6447c7b8fb00d0393bdbc6af1f616b3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c6447c7b8fb00d0393bdbc6af1f616b3, findElement {using=xpath, value=//span[contains(text(),'Contact Us')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303453\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.25.124.190:4444/ses..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6447c7b8fb00d0393bdbc6af1f616b3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at pageObjects.UniversitiesPage.clickContactUs(UniversitiesPage.java:18)
+at testCases.TC004_BusinessCoursera.clickContactUs(TC004_BusinessCoursera.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContactUs -->
-        <test-method signature="details()[pri:14, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:38:19 IST" name="details" finished-at="2024-02-20T16:38:30 IST" duration-ms="10635" status="PASS">
+        <test-method signature="details()[pri:14, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:21:12 IST" name="details" finished-at="2024-02-29T14:21:12 IST" duration-ms="20" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c6447c7b8fb00d0393bdbc6af1f616b3, findElement {using=xpath, value=//input[@id='FirstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303453\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.25.124.190:4444/ses..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6447c7b8fb00d0393bdbc6af1f616b3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c6447c7b8fb00d0393bdbc6af1f616b3, findElement {using=xpath, value=//input[@id='FirstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303453\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.25.124.190:4444/ses..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6447c7b8fb00d0393bdbc6af1f616b3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+at pageObjects.ContactUsPage.enterDetails(ContactUsPage.java:73)
+at testCases.TC004_BusinessCoursera.details(TC004_BusinessCoursera.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- details -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_BusinessCoursera@5c5eefef]" started-at="2024-02-20T16:38:30 IST" name="tearDown" finished-at="2024-02-20T16:38:31 IST" duration-ms="1319" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_BusinessCoursera@46cdf8bd]" started-at="2024-02-29T14:21:12 IST" name="tearDown" finished-at="2024-02-29T14:21:13 IST" duration-ms="1284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
